@@ -1,0 +1,45 @@
+<app-layout>
+
+    <h5 class="card-title">Cliente - {{operacao}}</h5>
+
+    <label for="nome">Nome:</label>
+    <input type="text" class="form-control" [(ngModel)]="cliente.nome">
+    <br>
+
+    <label for="endereco">Endereço:</label>
+    <input type="text" class="form-control" [(ngModel)]="cliente.endereco">
+    <br>
+
+    <div class="row">
+        <div class="col">
+            <label for="cidade">Cidade</label>
+            <input type="text" class="form-control" [(ngModel)]="cliente.cidade">
+        </div>
+        <div class="col">
+            <label for="cep">CEP</label>
+            <input type="text" class="form-control" [(ngModel)]="cliente.cep">
+        </div>
+    </div>
+    <br>
+    
+    <div class="row">
+        <div class="col">
+            <label for="uf">UF</label>
+            <input type="text" class="form-control" [(ngModel)]="cliente.uf">
+        </div>
+        <div class="col">
+            <label for="telefone">Telefone</label>
+            <input type="text" class="form-control" [(ngModel)]="cliente.telefone">
+        </div>
+    </div>
+    <br><br>
+
+    <div class="row" style="margin-bottom: 20px;">
+        <div class="col-lg-12">
+            <button *ngIf="operacao == 'Incluir'" type="button" class="btn btn-primary" style="margin-right: 10px;"
+                (click)="incluir()">incluir</button>
+            <button *ngIf="operacao == 'Alterar'" type="button" class="btn btn-primary" style="margin-right: 10px;"
+                (click)="alterar()">alterar</button>
+        </div>
+    </div>
+</app-layout>
