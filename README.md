@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ProjetoFinal
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# procenge-imersao-angular
+Repositório com o projeto de conclusão do curso de imersão em Angula 2+ promovido pela Procenge PE
+>>>>>>> 2f3b5ae856cf9e32b748442a8fa72ccf62dfc416
